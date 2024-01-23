@@ -16,17 +16,34 @@ body {
   grid-gap: 54px;
 }
 
+.grid-2-columns {
+    grid-template-columns: 1fr 1fr;
+}
+
 .grid-3-columns {
   grid-template-columns: 2fr 2fr 2fr;
 }
 
+.grid-odd-columns {
+    grid-template-columns: 2fr 1fr 
+}
 .card {
   background-color: white;
   margin: 30px 0;
 }
 
+.embed {
+    width: 100%;
+    aspect-ratio: 1/1;
+   
+
+}
 .card h3 {
   line-height: 2.5;
+}
+
+.card-header.grid{
+    grid-gap: 0;
 }
 
 .card-body {
@@ -48,7 +65,8 @@ body {
 }
 
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
+  
 }
 section {
   max-width: 100%;
@@ -179,6 +197,7 @@ footer ul {
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 32px;
+    padding: 0;
   }
   .section {
     padding: 30px;
@@ -190,4 +209,12 @@ footer {
 
 footer h3 {
   font-size: small;
+}
+
+.secondary{
+    padding: 0;
+}
+
+.embed{
+    aspect-ratio: 16/9;
 }
