@@ -76,6 +76,7 @@ section {
 
 section.secondary {
   background-color: rgb(252, 248, 248);
+  padding: 20px;
 }
 
 header a {
@@ -213,6 +214,9 @@ footer h3 {
 
 .secondary{
     padding: 0;
+}
+.secondary h4 {
+    opacity: 0.6;
 }
 
 .embed{
